@@ -1,0 +1,11 @@
+.hero-image-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
