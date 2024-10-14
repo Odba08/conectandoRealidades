@@ -1,11 +1,32 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './pages/homepage/homepage.component';
+import { NoticiaUnoComponent } from './pages/noticias/noticia-uno/noticia-uno.component';
+import { NoticiaDosComponent } from './pages/noticias/noticia-dos/noticia-dos.component';
+import { NoticiaTresComponent } from './pages/noticias/noticia-tres/noticia-tres.component';
+import { NoticiaCuatroComponent } from './pages/noticias/noticia-cuatro/noticia-cuatro.component';
+import { NoticiaCincoComponent } from './pages/noticias/noticia-cinco/noticia-cinco.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomepageComponent,
+  },
+  {
+    path: 'noticias',
+    component: NoticiaUnoComponent,
+  },{
+    path: 'noticiasdos',
+    component: NoticiaDosComponent,
+  },{
+    path: 'noticiastres',
+    component: NoticiaTresComponent,
+  },{
+    path: 'noticiascuatro',
+    component: NoticiaCuatroComponent,
+  },{
+    path: 'noticiascinco',
+    component: NoticiaCincoComponent,
   },
   {
     redirectTo: '',
