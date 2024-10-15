@@ -12,6 +12,9 @@ import { NoticiaDosComponent } from './pages/noticias/noticia-dos/noticia-dos.co
 import { NoticiaTresComponent } from './pages/noticias/noticia-tres/noticia-tres.component';
 import { NoticiaCuatroComponent } from './pages/noticias/noticia-cuatro/noticia-cuatro.component';
 import { NoticiaCincoComponent } from './pages/noticias/noticia-cinco/noticia-cinco.component';
+import { ContactoComponent } from './pages/menu/contacto/contacto.component';
+import { CronicasComponent } from './pages/menu/cronicas/cronicas.component';
+import { SobreNosotrosComponent } from './pages/menu/sobre-nosotros/sobre-nosotros.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { NoticiaCincoComponent } from './pages/noticias/noticia-cinco/noticia-ci
     NoticiaDosComponent,
     NoticiaTresComponent,
     NoticiaCuatroComponent,
-    NoticiaCincoComponent
+    NoticiaCincoComponent,
+    ContactoComponent,
+    CronicasComponent,
+    SobreNosotrosComponent
   ],
   imports: [
     BrowserModule,
