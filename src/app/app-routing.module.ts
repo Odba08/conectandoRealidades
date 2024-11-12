@@ -9,6 +9,15 @@ import { NoticiaCincoComponent } from './pages/noticias/noticia-cinco/noticia-ci
 import { CronicasComponent } from './pages/menu/cronicas/cronicas.component';
 import { SobreNosotrosComponent } from './pages/menu/sobre-nosotros/sobre-nosotros.component';
 import { ContactoComponent } from './pages/menu/contacto/contacto.component';
+import { OneComponent } from './pages/secondnotices/one/one.component';
+import { TwoComponent } from './pages/secondnotices/two/two.component';
+import { ThreeComponent } from './pages/secondnotices/three/three.component';
+import { FouthComponent } from './pages/secondnotices/fouth/fouth.component';
+import { FiveComponent } from './pages/secondnotices/five/five.component';
+import { SixComponent } from './pages/secondnotices/six/six.component';
+import { SevenComponent } from './pages/secondnotices/seven/seven.component';
+import { EigthComponent } from './pages/secondnotices/eigth/eigth.component';
+import { ReportajeComponent } from './pages/secondnotices/reportaje/reportaje.component';
 
 const routes: Routes = [
   {
@@ -42,6 +51,34 @@ const routes: Routes = [
   },{
     path: 'noticiascinco',
     component: NoticiaCincoComponent,
+  },
+  {
+    path: 'one',
+    component: OneComponent,
+  },{
+    path: 'two',
+    component: TwoComponent,
+  },{
+    path: 'three',
+    component: ThreeComponent,
+  },{
+    path: 'four',
+    component: FouthComponent,
+  },{
+    path: 'five',
+    component: FiveComponent,
+  },{
+    path: 'six',
+    component: SixComponent,
+  },{
+    path: 'seven',
+    component: SevenComponent,
+  },{
+    path: 'eight',
+    component: EigthComponent,
+  },{
+    path: 'reportaje',
+    component: ReportajeComponent,
   },
   {
     redirectTo: '',
