@@ -24,6 +24,9 @@ import { SixComponent } from './pages/secondnotices/six/six.component';
 import { SevenComponent } from './pages/secondnotices/seven/seven.component';
 import { EigthComponent } from './pages/secondnotices/eigth/eigth.component';
 import { ReportajeComponent } from './pages/secondnotices/reportaje/reportaje.component';
+import { EcosustentableComponent } from './pages/menu/ecosustentable/ecosustentable.component';
+import { SostenibilidadComponent } from './pages/menu/sostenibilidad/sostenibilidad.component';
+import { ConectandorealidadesComponent } from './pages/menu/conectandorealidades/conectandorealidades.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { ReportajeComponent } from './pages/secondnotices/reportaje/reportaje.co
     SixComponent,
     SevenComponent,
     EigthComponent,
-    ReportajeComponent
+    ReportajeComponent,
+    EcosustentableComponent,
+    SostenibilidadComponent,
+    ConectandorealidadesComponent
   ],
   imports: [
     BrowserModule,
