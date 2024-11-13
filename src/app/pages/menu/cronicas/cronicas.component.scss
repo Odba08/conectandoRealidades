@@ -28,13 +28,22 @@
 }
 
 .left-notice{
+    width: 50%;
+    a{
+        font-size: 1.5rem;
+    }
     .contenido {
         display: flex;
         flex-direction: column;
+        
     }
 }
 
 .right-notice{
+    width: 50%;
+    a{
+        font-size: 1.5rem;
+    }
     .contenido {
         display: flex;
         flex-direction: column;
